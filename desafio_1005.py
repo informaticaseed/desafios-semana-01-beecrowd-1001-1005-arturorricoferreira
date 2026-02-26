@@ -18,3 +18,14 @@ de imprimir o fim de linha após o resultado, caso contrário, você receberá
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1005
 
 # Escreva sua solução abaixo
+#include <stdio.h>
+
+int main() {double A, B, MEDIA;
+    scanf("%lf", &A);
+    scanf("%lf", &B);
+    
+    MEDIA = (A * 3.5 + B * 7.5) / 11.0;
+    
+    printf("MEDIA = %.1f\n", MEDIA);
+    
+    return 0;}
